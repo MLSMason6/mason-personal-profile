@@ -1,6 +1,6 @@
 body { 
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Inter', sans-serif;
     background: #f0f4f8;
     display: flex;
     justify-content: center;
@@ -8,13 +8,14 @@ body {
     height: 100vh;
 }
 
-.profile-card { 
+.profile-card {
     background: white;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 300px;
+    width: 90%;
+    max-width: 400px;
 }
 
 .profile-img { 
