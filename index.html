@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <button id="theme-toggle">Toggle Dark Mode</button>
+
     <div class="profile-card">
         <img src="profile.jpg" alt="My Photo" class="profile-img" />
         <h1>Mason Schrader</h1>
@@ -21,5 +23,14 @@
             <a href="https://www.linkedin.com/in/mason-schrader-459380260/">LinkedIn</a>
         </div>
     </div>
+
+    <script>
+        const toggleButton = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        toggleButton.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
 </body>
 </html>
