@@ -73,3 +73,48 @@ body.dark-mode .social-links a {
 #theme-toggle:hover {
     background: #005fa3;
 }
+
+.projects-section {
+    margin-top: 2rem;
+    max-width: 400px;
+    width: 90%;
+    text-align: left;
+}
+
+.projects-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.project h3 {
+    margin: 0 0 0.5rem;
+}
+
+.project a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Dark mode support */
+body.dark-mode .project {
+    background: #2a2a2a;
+}
+
+body.dark-mode .projects-section h2,
+body.dark-mode .project h3,
+body.dark-mode .project p {
+    color: #ffffff;
+}
